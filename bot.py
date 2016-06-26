@@ -1,12 +1,12 @@
 # This is a simple echo bot using the decorator mechanism.
 # It echoes any incoming text messages.
 
-print "Python Bot By Arash @ArashEmp [109722284]{LionTeam}"
+print "Python Bot By amir @alfroshotak [196560568]{sik}"
 print "Kosgu Bot has been started."
 
 import telebot
 
-API_TOKEN = '<YourToken>'
+API_TOKEN = '<221733608:AAGRoU0BjSvLVOdtNd3KKJ8UKguO4bqOZvU>'
 
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -16,7 +16,7 @@ def send_welcome(message):
     bot.reply_to(message, """\
 Hi there, I am Kos Goo Bot.
 I am here to echo your kind words back to you. Just say anything nice and I'll say the exact same thing to you!
-Created By @ArashEmp\
+Created By @alfroshotak\
 """)
 
 @bot.message_handler(commands=['credits', 'about'])
